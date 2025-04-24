@@ -1,0 +1,37 @@
+# === General ===
+.DS_Store
+*.log
+.env
+*.env
+*.iml
+.idea/
+.vscode/
+*.swp
+
+# === Node (Frontend) ===
+/frontend/node_modules/
+/frontend/build/
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+# === Java (Backend) ===
+/backend/target/
+/backend/.classpath
+/backend/.project
+/backend/.settings/
+/backend/.mvn/
+/backend/mvnw
+/backend/mvnw.cmd
+
+# === IntelliJ / Eclipse ===
+*.ipr
+*.iws
+*.bak
+*.tmp
+
+# === Mac ===
+._*
+.Spotlight-V100
+.Trashes
